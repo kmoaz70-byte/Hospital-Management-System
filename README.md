@@ -32,10 +32,10 @@ A comprehensive hospital management system built with ASP.NET Core MVC using N-T
 - Unit of Work Pattern
 - Generic Repository
 - Dependency Injection
-
+```
 
 ## 📸 Screenshots
-`
+
 ### Dashboard
 - [Dashboard](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Dashboard.png)
 
@@ -50,7 +50,6 @@ A comprehensive hospital management system built with ASP.NET Core MVC using N-T
 
 ### Departments
 - [Departments Screenshot](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Departments.png)
-```
 
 
 ## 🚀 Getting Started
