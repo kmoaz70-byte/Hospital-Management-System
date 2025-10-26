@@ -1,0 +1,37 @@
+﻿
+@model List<Doctor>
+
+<br />
+<br />
+<div class="row">
+    <div class="col-6">
+        <h2> Doctors </h2>
+    </div>
+    <div class="col-6">
+        <a class="btn btn-primary text-end mb-3 " style="margin-left:320px ; margin-top:5px" asp-area="Admin" asp-controller="Doctors" asp-action="Create">
+            Add a Doctor
+        </a>
+    </div>
+</div>
+<br />
+
+<table id="doctortable" class="table table-hover">
+    <thead>
+        <tr class="table-primary">
+            <th>Name</th>
+            <th>Specialization</th>
+            <th>Department</th>
+            <th>Years of experience</th>
+            <th>Appointment fee</th>
+            <th>Phone no.</th>
+           
+
+        </tr>
+    </thead>
+
+</table>
+@section Scripts{
+    <script src="~/js/Doctors.js"></script>
+}
+
+

@@ -1,0 +1,84 @@
+﻿
+@using Models.Models.ViewModel
+@model AppointmentVM
+
+<h2>Appointment</h2>
+
+
+
+<form method="post">
+
+    <div class="row">
+        <label class="form-label mt-4 text-primary" style="font-weight:600" asp-for="appointment.Date"></label>
+        <div class="col-sm-10">
+            <input class="form-control btn-outline-dark bg-light" type="date" asp-for="appointment.Date">
+            <span class="text-danger" asp-validation-for="appointment.Date"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <label class="form-label mt-4 text-primary" style="font-weight:600" asp-for="appointment.Time"></label>
+        <div class="col-sm-10">
+            <input class="form-control btn-outline-dark bg-light" type="time" asp-for="appointment.Time">
+            <span class="text-danger" asp-validation-for="appointment.Time"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <label class="form-label mt-4 text-primary" style="font-weight:600" asp-for="appointment.Number"></label>
+        <div class="col-sm-10">
+            <input class="form-control btn-outline-dark bg-light" asp-for="appointment.Number">
+            <span class="text-danger" asp-validation-for="appointment.Number"></span>
+        </div>
+        </div>
+
+    <div class="row">
+        <label class="form-label mt-4 text-primary" style="font-weight:600" asp-for="appointment.PatientId"></label>
+        <div class="col-sm-10">
+            <select asp-items="@Model.patientsSL" class="form-control" asp-for="appointment.PatientId" >
+                <option disabled selected>--Select a patient--</option>
+            </select>
+            <span class="text-danger" asp-validation-for="appointment.PatientId"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <label class="form-label mt-4 text-primary" style="font-weight:600" asp-for="appointment.DoctorId"></label>
+        <div class="col-sm-10">
+            <select asp-items="@Model.doctorsSL" class="form-control" asp-for="appointment.DoctorId">
+                <option disabled selected>--Select a doctor--</option>
+            </select>
+            <span class="text-danger" asp-validation-for="appointment.DoctorId"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <label class="form-label mt-4 text-primary" style="font-weight:600" asp-for="appointment.Status"></label>
+        <div class="col-sm-10">
+            <select asp-for="appointment.Status" class="form-control">
+                <option disabled selected value="">--Select Status--</option>
+                <option value="Pending">Pending</option>
+                <option value="Confirmed">Confirmed</option>
+                <option value="Cancelled">Cancelled</option>
+            </select>
+            <span class="text-danger" asp-validation-for="appointment.Status"></span>
+        </div>
+    </div>
+
+
+    <div class="row w-25 mt-2">
+        <div class="col-6">
+            <button type="submit" class="btn btn-primary" style="width:100px"> Book </button>
+        </div>
+        <div class="col-6">
+            <a class="btn btn-secondary" style="width:130px" asp-area="User" asp-controller="Appointment" asp-action="Index">Back to List</a>
+        </div>
+    </div>
+
+</form>
+
+            @section Scripts{
+                @{
+                    <partial name="_ValidationScriptsPartial" />
+                }
+            }

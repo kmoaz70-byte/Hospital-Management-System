@@ -1,0 +1,82 @@
+﻿@model Doctor
+
+<h2>Doctor</h2>
+
+
+
+<form method="post">
+
+    <div class="row">
+        <label class="form-label mt-4 text-primary" style="font-weight:600" asp-for="Name"></label>
+        <div class="col-sm-10">
+            <input class="form-control btn-outline-dark bg-light" asp-for="Name">
+            <span class="text-danger" asp-validation-for="Name"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <label class="form-label mt-4 text-primary" style="font-weight:600" asp-for="Specialization"></label>
+        <div class="col-sm-10">
+            <input class="form-control btn-outline-dark bg-light" asp-for="Specialization">
+            <span class="text-danger" asp-validation-for="Specialization"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <label class="form-label mt-4 text-primary" style="font-weight:600" asp-for="DepartmentId"></label>
+        <div class="col-sm-10">
+            <select class="form-control form-select" asp-for="DepartmentId" asp-items="ViewBag.departments">
+               <option selected disabled>--Select Department--</option>
+            </select>
+            <span class="text-danger" asp-validation-for="DepartmentId"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <label class="form-label mt-4 text-primary" style="font-weight:600" asp-for="YearsofExperience"></label>
+        <div class="col-sm-10">
+            <input class="form-control btn-outline-dark bg-light" asp-for="YearsofExperience">
+            <span class="text-danger" asp-validation-for="YearsofExperience"></span>
+        </div>
+        </div>
+
+    <div class="row">
+        <label class="form-label mt-4 text-primary" style="font-weight:600" asp-for="AppointmentFee"></label>
+        <div class="col-sm-10">
+            <input class="form-control btn-outline-dark bg-light" asp-for="AppointmentFee">
+            <span class="text-danger" asp-validation-for="AppointmentFee"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <label class="form-label mt-4 text-primary" style="font-weight:600" asp-for="Phone"></label>
+        <div class="col-sm-10">
+            <input class="form-control btn-outline-dark bg-light" asp-for="Phone">
+            <span class="text-danger" asp-validation-for="Phone"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <label class="form-label mt-4 text-primary" style="font-weight:600" asp-for="Email"></label>
+        <div class="col-sm-10">
+            <input class="form-control btn-outline-dark bg-light" type="email" asp-for="Email">
+            <span class="text-danger" asp-validation-for="Email"></span>
+        </div>
+    </div>
+
+    <div class="row w-25 mt-2">
+        <div class="col-5">
+            <button type="submit" class="btn btn-primary" style="width:100px"> Add </button>
+        </div>
+        <div class="col-4">
+            <a class="btn btn-secondary" style="width:130px" asp-area="Admin" asp-controller="Doctors" asp-action="Index">Back to List</a>
+        </div>
+    </div>
+
+</form>
+
+            @section Scripts{
+                @{
+                    <partial name="_ValidationScriptsPartial" />
+                }
+            }

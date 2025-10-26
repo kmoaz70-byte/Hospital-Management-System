@@ -1,0 +1,37 @@
+﻿@using Models.Models
+@* @using Models.Models.ViewModel *@
+
+@model IEnumerable<Appointment>
+<br />
+<br />
+<div class="row">
+    <div class="col-6">
+        <h2> Appointment </h2>
+    </div>
+    <div class="col-6">
+        <a class="btn btn-primary text-end mb-3 " style="margin-left:320px ; margin-top:5px" asp-area="User" asp-controller="Appointment" asp-action="Book">
+            Book Appointment
+        </a>
+    </div>
+</div>
+<br />
+
+<table id="appo" class="table table-hover">
+    <thead>
+        <tr class="table-primary">
+            <th>Doctor Name</th>
+            <th>Patient Name</th>
+            <th data-class-name="priority">Number</th>
+            <th>Status</th>
+            <th>Date</th>
+            <th>Time</th>
+        </tr>
+    </thead>
+
+</table>
+
+
+
+@section Scripts{
+    <script src="~/js/Appointment.js"></script>
+}

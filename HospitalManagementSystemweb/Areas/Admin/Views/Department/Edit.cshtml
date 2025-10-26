@@ -1,0 +1,34 @@
+﻿@model Department
+
+<h2>Department</h2>
+
+
+
+<form method="post" asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+    <div class="row">
+        <label class="form-label mt-4 text-primary" style="font-weight:600" asp-for="Name"></label>
+        <div class="col-sm-10">
+            <input class="form-control btn-outline-dark bg-light" asp-for="Name">
+            <span class="text-danger" asp-validation-for="Name"></span>
+        </div>
+    </div>
+
+
+
+    <div class="row w-25 mt-2">
+        <div class="col-5">
+            <button type="submit" class="btn btn-warning" style="width:100px"> Update </button>
+        </div>
+        <div class="col-4">
+            <a class="btn btn-secondary" style="width:130px" asp-area="Admin" asp-controller="Department" asp-action="Index">Back to List</a>
+        </div>
+    </div>
+
+</form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

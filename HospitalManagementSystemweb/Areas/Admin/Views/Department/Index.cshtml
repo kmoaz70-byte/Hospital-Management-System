@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Department>
+
+<br />
+<br />
+<div class="row">
+    <div class="col-6">
+        <h2> Departments </h2>
+    </div>
+    <div class="col-6">
+        <a class="btn btn-primary text-end mb-3 " style="margin-left:320px ; margin-top:5px" asp-area="Admin" asp-controller="Department" asp-action="Create">
+            Add Department
+        </a>
+    </div>
+</div>
+<br />
+<br />
+
+<table id="departmenttable" class="table table-hover">
+    <thead>
+        <tr class="table-primary">
+            <th>Department Name </th>  
+            
+
+        </tr>
+    </thead>
+ 
+</table>
+
+@section Scripts{
+    <script src="~/js/Department.js"></script>
+}
+

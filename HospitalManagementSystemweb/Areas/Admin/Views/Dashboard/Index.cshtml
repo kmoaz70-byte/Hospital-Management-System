@@ -1,0 +1,77 @@
+﻿@using Models.Models.ViewModel
+
+@model DashboardVM
+<br />
+<h2 class="text-info text-center">Dashboard</h2>
+<br />
+<ul class="list-group">
+    <li class="list-group-item list-group-item-primary d-flex justify-content-between align-items-center">
+        Total Doctors
+        <span class="badge bg-primary rounded-pill">@Model.TotalDoctors</span>
+    </li>
+    <li class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center">
+        Total Patients
+        <span class="badge bg-primary rounded-pill">@Model.TotalPatients</span>
+    </li>
+    <li class="list-group-item list-group-item-success d-flex justify-content-between align-items-center">
+        Total Appointments
+        <span class="badge bg-primary rounded-pill">@Model.TotalAppointments</span>
+    </li>
+    <li class="list-group-item list-group-item-info d-flex justify-content-between align-items-center">
+        Total Departments
+        <span class="badge bg-primary rounded-pill">@Model.TotalDepartments</span>
+    </li>
+    <li class="list-group-item list-group-item-warning d-flex justify-content-between align-items-center">
+        Today Appointments
+        <span class="badge bg-primary rounded-pill">@Model.TodayAppointments</span>
+    </li>
+    <li class="list-group-item list-group-item-danger d-flex justify-content-between align-items-center">
+        Pending Appointments
+        <span class="badge bg-primary rounded-pill">@Model.PendingAppointments</span>
+    </li>
+    <li class="list-group-item list-group-item-light d-flex justify-content-between align-items-center">
+        Comleted  Appointments
+        <span class="badge bg-primary rounded-pill">@Model.CompletedAppointments</span>
+    </li>
+   
+</ul>
+<br />
+<h3 class="text-success">Recent Appointments</h3>
+<br />
+<table class="table table-hover">
+   <thead>
+        <tr class="table-success">
+
+            <td>Doctor</td>
+            <td>Patient</td>
+            <td>Status</td>
+            <td>Time</td>
+       </tr>
+     
+        
+   </thead>
+   <tbody>
+       
+        @foreach(var app in Model.RecentAppointments)
+        {
+            <tr class="table-active">
+                <td>
+                    @app.Doctor.Name
+                </td>
+                <td>
+                    @app.Patient.Name
+                </td>
+                <td>
+                    @app.Status
+                </td>
+                <td>
+                    @app.Time
+                </td>
+
+            </tr>
+        }
+           
+    </tbody>
+</table>
+
+   
