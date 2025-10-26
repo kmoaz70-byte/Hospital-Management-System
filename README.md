@@ -34,7 +34,7 @@ A comprehensive hospital management system built with ASP.NET Core MVC using N-T
 - Dependency Injection
 
 ## 📸 Screenshots
-
+``
 ### Dashboard
 - [Dashboard](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Dashboard.png)
 
@@ -108,7 +108,7 @@ HospitalManagementSystem/
 - Appointments
 
 ## 👨‍💻 Author
-```
+``
 **Your Name**
 - GitHub: [@kmoaz70-byte](https://github.com/kmoaz70-byte)
 - LinkedIn: [Syed Muaaz](https://linkedin.com/in/syedmuaaz)
