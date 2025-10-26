@@ -4,7 +4,26 @@
 A comprehensive hospital management system built with ASP.NET Core MVC using N-Tier Architecture.
 
 ## 📸 Screenshots
-![Dashboard](https://raw.githubusercontent.com/kmoaz70-byte/Hospital-Management-System/master/screenshots/Dashboard.png)
+
+### Dashboard
+![Dashboard](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Dashboard.png)
+
+### Appointments Management
+![Appointments](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Appointments.png)
+
+### Doctors Management  
+![Doctors](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Doctors.png)
+
+### Patients Management
+![Patients](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Patients.png)
+
+### Departments
+![Departments](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Departments.png)
+```
+
+---
+
+
 ## ✨ Features
 
 - 👨‍⚕️ **Doctor Management** - Add, edit, delete doctors with specializations
