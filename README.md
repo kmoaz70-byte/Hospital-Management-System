@@ -33,6 +33,25 @@ A comprehensive hospital management system built with ASP.NET Core MVC using N-T
 - Generic Repository
 - Dependency Injection
 
+## 📸 Screenshots
+
+### Dashboard
+- [Dashboard](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Dashboard.png)
+
+### Appointments Management
+- [Appointments Screenshot](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Appointments.png)
+
+### Doctors Management  
+- [Doctors Screenshot](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Doctors.png)
+
+### Patients Management
+- [Patients Screenshot](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Patients.png)
+
+### Departments
+- [Departments Screenshot](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Departments.png)
+```
+
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -95,23 +114,7 @@ HospitalManagementSystem/
 - LinkedIn: [Syed Muaaz](https://linkedin.com/in/syedmuaaz)
 - Email: kmoaz70@gmail.com
 ```
-## 📸 Screenshots
 
-### Dashboard
-- [Dashboard](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Dashboard.png)
-
-### Appointments Management
-- [Appointments Screenshot](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Appointments.png)
-
-### Doctors Management  
-- [Doctors Screenshot](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Doctors.png)
-
-### Patients Management
-- [Patients Screenshot](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Patients.png)
-
-### Departments
-- [Departments Screenshot](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Departments.png)
-```
 
 ## 📄 License
 
