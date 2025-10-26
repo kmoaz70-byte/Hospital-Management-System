@@ -1,8 +1,7 @@
-﻿```
-# 🏥 Hospital Management System
+# 🏥 **Hospital Management System**
 
 A comprehensive hospital management system built with ASP.NET Core MVC using N-Tier Architecture.
-
+---
 ## ✨ Features
 
 - 👨‍⚕️ **Doctor Management** - Add, edit, delete doctors with specializations
@@ -12,7 +11,7 @@ A comprehensive hospital management system built with ASP.NET Core MVC using N-T
 - 📊 **Dashboard** - Real-time statistics
 - 🔍 **Search & Filter** - Advanced search across all modules
 - 🔔 **Notifications** - Toast notifications for user actions
-
+---
 ## 🛠️ Technology Stack
 
 **Backend:**
@@ -32,7 +31,8 @@ A comprehensive hospital management system built with ASP.NET Core MVC using N-T
 - Unit of Work Pattern
 - Generic Repository
 - Dependency Injection
-```
+---
+
 
 ## 📸 Screenshots
 
@@ -82,7 +82,7 @@ dotnet ef database update
 ```bash
 dotnet run
 ```
-
+---
 
 ## 📁 Project Structure
 ```
@@ -93,6 +93,7 @@ HospitalManagementSystem/
 ├── DataAccess/          # Repository & DbContext
 └── wwwroot/            # Static files (CSS, JS, images)
 ```
+---
 
 ## 🗄️ Database Schema
 
@@ -106,7 +107,7 @@ HospitalManagementSystem/
 - Doctors
 - Patients
 - Appointments
-
+---
 ## 👨‍💻 Author
 ``
 **Your Name**
