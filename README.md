@@ -65,24 +65,23 @@ dotnet run
 ```
 
 ## 📸 Screenshots
-
+```
 ### Dashboard
-- [Dashboard](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Dashboard.png)
+- [Dashboard Screenshot](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Dashboard.png)
 
 ### Appointments Management
-![Appointments](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Appointments.png)
+- [Appointments Screenshot](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Appointments.png)
 
 ### Doctors Management  
-![Doctors](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Doctors.png)
+- [Doctors Screenshot](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Doctors.png)
 
 ### Patients Management
-![Patients](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Patients.png)
+- [Patients Screenshot](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Patients.png)
 
 ### Departments
-![Departments](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Departments.png)
-```
+- [Departments Screenshot](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Departments.png)
 
----
+```
 
 
 ## 📁 Project Structure
