@@ -49,7 +49,7 @@ A comprehensive hospital management system built with ASP.NET Core MVC using N-T
 
 ### Departments
 - [Departments Screenshot](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Departments.png)
-```
+
 
 
 ## 🚀 Getting Started
