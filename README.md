@@ -6,7 +6,7 @@ A comprehensive hospital management system built with ASP.NET Core MVC using N-T
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Dashboard.png)
+- [Dashboard](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Dashboard.png)
 
 ### Appointments Management
 ![Appointments](https://github.com/kmoaz70-byte/Hospital-Management-System/raw/master/screenshots/Appointments.png)
