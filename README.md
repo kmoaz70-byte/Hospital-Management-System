@@ -4,8 +4,7 @@
 A comprehensive hospital management system built with ASP.NET Core MVC using N-Tier Architecture.
 
 ## 📸 Screenshots
-![Dashboard](screenshots/Dashboard.png)
-
+![Dashboard](https://raw.githubusercontent.com/kmoaz70-byte/Hospital-Management-System/master/screenshots/Dashboard.png)
 ## ✨ Features
 
 - 👨‍⚕️ **Doctor Management** - Add, edit, delete doctors with specializations
