@@ -115,12 +115,11 @@ HospitalManagementSystem/
 - LinkedIn: [Syed Muaaz](https://linkedin.com/in/syedmuaaz)
 - Email: kmoaz70@gmail.com
 ```
-
+---
 
 ## 📄 License
 
 This project is licensed under the MIT License.
-
 ---
 
 ⭐ If you found this helpful, please give it a star!
