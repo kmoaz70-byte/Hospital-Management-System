@@ -5,7 +5,7 @@ A comprehensive hospital management system built with ASP.NET Core MVC using N-T
 
 ## 📸 Screenshots
 ![Dashboard](screenshots/dashboard.png)
-![Dashboard](screenshots/dashboard1.png)
+[Dashboard](screenshots/dashboard1.png)
 
 ## ✨ Features
 
