@@ -11,11 +11,12 @@ namespace HospitalManagementSystemweb.Areas.Admin.Controllers
     public class DoctorsController : Controller
     {
         private readonly IUnitofwork unitofwork;
+        private readonly IWebHostEnvironment _enviroment;
 
-        public DoctorsController(IUnitofwork context)
+        public DoctorsController(IUnitofwork context,IWebHostEnvironment environment)
         {
             unitofwork = context;
-
+            _enviroment = environment;
         }
 
         //Index
@@ -37,8 +38,9 @@ namespace HospitalManagementSystemweb.Areas.Admin.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Create(Doctor doctor)
+        public IActionResult Create(Doctor doctor, IFormFile file)
         {
+            string wwwRoot = _enviroment.WebRootPath;
             if (ModelState.IsValid)
             {
                 unitofwork.DoctorR.Add(doctor);

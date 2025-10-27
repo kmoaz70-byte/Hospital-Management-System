@@ -33,5 +33,7 @@ namespace HospitalManagementSystemweb.Models
         [ForeignKey("DepartmentId")]
         [ValidateNever]
         public Department Department { get; set; }
+
+       
     }
 }

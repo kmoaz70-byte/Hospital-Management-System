@@ -13,6 +13,7 @@ namespace HospitalManagementSystemweb.Areas.Admin.Controllers
         public AppointmentController(IUnitofwork iuow)
         {
             unitofwork = iuow;
+            
         }
 
 

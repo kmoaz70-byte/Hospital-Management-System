@@ -6,19 +6,19 @@
 <br />
 <ul class="list-group">
     <li class="list-group-item list-group-item-primary d-flex justify-content-between align-items-center">
-        Total Doctors
+        <a class="text-decoration-none text-black" asp-area="Admin" asp-controller="Doctors" asp-action="Index">Total Doctors</a>
         <span class="badge bg-primary rounded-pill">@Model.TotalDoctors</span>
     </li>
     <li class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center">
-        Total Patients
+        <a class="text-decoration-none text-warning" asp-area="Admin" asp-controller="Patient" asp-action="Index">Total Patients</a>
         <span class="badge bg-primary rounded-pill">@Model.TotalPatients</span>
     </li>
     <li class="list-group-item list-group-item-success d-flex justify-content-between align-items-center">
-        Total Appointments
+        <a class="text-decoration-none" asp-area="User" asp-controller="Appointment" asp-action="Index">Appointments</a>
         <span class="badge bg-primary rounded-pill">@Model.TotalAppointments</span>
     </li>
-    <li class="list-group-item list-group-item-info d-flex justify-content-between align-items-center">
-        Total Departments
+    <li class="list-group-item list-group-item-info d-flex justify-content-between align-items-center">  
+        <a class="text-decoration-none" asp-area="Admin" asp-controller="Department" asp-action="Index"> Total Departments </a>
         <span class="badge bg-primary rounded-pill">@Model.TotalDepartments</span>
     </li>
     <li class="list-group-item list-group-item-warning d-flex justify-content-between align-items-center">
